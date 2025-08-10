@@ -208,6 +208,10 @@ app.get('/api/test-message', async (req, res) => {
     res.status(500).json({ error: 'Failed to emit test message' });
   }
 });
+// Root route for quick test:
+app.get('/', (req, res) => {
+  res.send('Backend server is running!');
+});
 
 // 404 JSON
 app.use((req, res) => res.status(404).json({ error: 'Route not found' }));
