@@ -1,4 +1,6 @@
 // server.js
+console.log('Running Node.js version:', process.version);
+
 import 'dotenv/config';
 import express, { json } from 'express';
 import { createServer } from 'http';
