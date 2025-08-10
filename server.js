@@ -1,12 +1,7 @@
 // server.js
 console.log('Running Node.js version:', process.version);
 
-app.get('/version', (req, res) => {
-  res.json({
-    node: process.version,
-    openssl: process.versions.openssl
-  });
-});
+
 
 import 'dotenv/config';
 import express, { json } from 'express';
@@ -16,9 +11,17 @@ import { MongoClient } from 'mongodb';
 import { Server } from 'socket.io';
 
 const app = express();
+
 const server = createServer(app);
 app.use(cors());
 app.use(json());
+
+app.get('/version', (req, res) => {
+  res.json({
+    node: process.version,
+    openssl: process.versions.openssl
+  });
+});
 
 const MONGO_URI = process.env.MONGO_URI;
 const DB_NAME = process.env.DB_NAME || 'whatsapp';
