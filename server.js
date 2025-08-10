@@ -1,6 +1,13 @@
 // server.js
 console.log('Running Node.js version:', process.version);
 
+app.get('/version', (req, res) => {
+  res.json({
+    node: process.version,
+    openssl: process.versions.openssl
+  });
+});
+
 import 'dotenv/config';
 import express, { json } from 'express';
 import { createServer } from 'http';
