@@ -1,0 +1,339 @@
+[
+  {
+    "payload_type": "whatsapp_webhook",
+    "_id": "conv1-msg1-user",
+    "metaData": {
+      "entry": [
+        {
+          "changes": [
+            {
+              "field": "messages",
+              "value": {
+                "contacts": [
+                  {
+                    "profile": {
+                      "name": "Ravi Kumar"
+                    },
+                    "wa_id": "919937320320"
+                  }
+                ],
+                "messages": [
+                  {
+                    "from": "919937320320",
+                    "id": "wamid.HBgMOTE5OTY3NTc4NzIwFQIAEhggMTIzQURFRjEyMzQ1Njc4OTA=",
+                    "timestamp": "1754400000",
+                    "text": {
+                      "body": "Hi, I’d like to know more about your services."
+                    },
+                    "type": "text"
+                  }
+                ],
+                "messaging_product": "whatsapp",
+                "metadata": {
+                  "display_phone_number": "918329446654",
+                  "phone_number_id": "629305560276479"
+                }
+              }
+            }
+          ],
+          "id": "30164062719905277"
+        }
+      ],
+      "gs_app_id": "conv1-app",
+      "object": "whatsapp_business_account"
+    },
+    "createdAt": "2025-08-06 12:00:00",
+    "startedAt": "2025-08-06 12:00:00",
+    "completedAt": "2025-08-06 12:00:01",
+    "executed": true
+  },
+  {
+    "payload_type": "whatsapp_webhook",
+    "_id": "conv1-msg2-status",
+    "metaData": {
+      "entry": [
+        {
+          "changes": [
+            {
+              "field": "messages",
+              "value": {
+                "messaging_product": "whatsapp",
+                "metadata": {
+                  "display_phone_number": "918329446654",
+                  "phone_number_id": "629305560276479"
+                },
+                "statuses": [
+                  {
+                    "conversation": {
+                      "id": "conv1-convo-id",
+                      "origin": {
+                        "type": "user_initiated"
+                      }
+                    },
+                    "gs_id": "conv1-msg2-gs-id",
+                    "id": "wamid.HBgMOTE5OTY3NTc4NzIwFQIAEhggNDc4NzZBQ0YxMjdCQ0VFOTk2NzA3MTI4RkZCNjYyMjc=",
+                    "meta_msg_id": "wamid.HBgMOTE5OTY3NTc4NzIwFQIAEhggNDc4NzZBQ0YxMjdCQ0VFOTk2NzA3MTI4RkZCNjYyMjc=",
+                    "recipient_id": "919937320320",
+                    "status": "read",
+                    "timestamp": "1754400040"
+                  }
+                ]
+              }
+            }
+          ],
+          "id": "30164062719905278"
+        }
+      ],
+      "gs_app_id": "conv1-app",
+      "object": "whatsapp_business_account",
+      "startedAt": "2025-08-06 12:00:40",
+      "completedAt": "2025-08-06 12:00:40",
+      "executed": true
+    }
+  },
+  {
+    "payload_type": "whatsapp_webhook",
+    "_id": "conv2-msg1-user",
+    "metaData": {
+      "entry": [
+        {
+          "changes": [
+            {
+              "field": "messages",
+              "value": {
+                "contacts": [
+                  {
+                    "profile": {
+                      "name": "Neha Joshi"
+                    },
+                    "wa_id": "929967673820"
+                  }
+                ],
+                "messages": [
+                  {
+                    "from": "929967673820",
+                    "id": "wamid.HBgMOTI5OTY3NjczODIwFQIAEhggQ0FBQkNERUYwMDFGRjEyMzQ1NkZGQTk5RTJCM0I2NzY=",
+                    "timestamp": "1754401000",
+                    "text": {
+                      "body": "Hi, I saw your ad. Can you share more details?"
+                    },
+                    "type": "text"
+                  }
+                ],
+                "messaging_product": "whatsapp",
+                "metadata": {
+                  "display_phone_number": "918329446654",
+                  "phone_number_id": "629305560276479"
+                }
+              }
+            }
+          ],
+          "id": "30164062719905279"
+        }
+      ],
+      "gs_app_id": "conv2-app",
+      "object": "whatsapp_business_account"
+    },
+    "createdAt": "2025-08-06 12:16:40",
+    "startedAt": "2025-08-06 12:16:40",
+    "completedAt": "2025-08-06 12:16:41",
+    "executed": true
+  },
+  {
+    "payload_type": "whatsapp_webhook",
+    "_id": "conv1-msg2-api",
+    "metaData": {
+      "entry": [
+        {
+          "changes": [
+            {
+              "field": "messages",
+              "value": {
+                "messaging_product": "whatsapp",
+                "metadata": {
+                  "display_phone_number": "918329446654",
+                  "phone_number_id": "629305560276479"
+                },
+                "contacts": [
+                  {
+                    "profile": {
+                      "name": "Ravi Kumar"
+                    },
+                    "wa_id": "919937320320"
+                  }
+                ],
+                "messages": [
+                  {
+                    "from": "918329446654",
+                    "id": "wamid.HBgMOTE5OTY3NTc4NzIwFQIAEhggNDc4NzZBQ0YxMjdCQ0VFOTk2NzA3MTI4RkZCNjYyMjc=",
+                    "timestamp": "1754400020",
+                    "text": {
+                      "body": "Hi Ravi! Sure, I’d be happy to help you with that. Could you tell me what you're looking for?"
+                    },
+                    "type": "text"
+                  }
+                ]
+              }
+            }
+          ],
+          "id": "30164062719905278"
+        }
+      ],
+      "gs_app_id": "conv1-app",
+      "object": "whatsapp_business_account"
+    },
+    "createdAt": "2025-08-06 12:00:20",
+    "startedAt": "2025-08-06 12:00:20",
+    "completedAt": "2025-08-06 12:00:21",
+    "executed": true
+  },
+  {
+    "payload_type": "whatsapp_webhook",
+    "_id": "conv2-msg2-api",
+    "metaData": {
+      "entry": [
+        {
+          "changes": [
+            {
+              "field": "messages",
+              "value": {
+                "messaging_product": "whatsapp",
+                "metadata": {
+                  "display_phone_number": "918329446654",
+                  "phone_number_id": "629305560276479"
+                },
+                "contacts": [
+                  {
+                    "profile": {
+                      "name": "Neha Joshi"
+                    },
+                    "wa_id": "929967673820"
+                  }
+                ],
+                "messages": [
+                  {
+                    "from": "918329446654",
+                    "id": "wamid.HBgMOTI5OTY3NjczODIwFQIAEhggM0RFNDkxRjEwNDhDQzgwMzk3NzA1ODc1RkU3QzI0MzU=",
+                    "timestamp": "1754401030",
+                    "text": {
+                      "body": "Hi Neha! Absolutely. We offer curated home decor pieces—are you looking for nameplates, wall art, or something else?"
+                    },
+                    "type": "text"
+                  }
+                ]
+              }
+            }
+          ],
+          "id": "30164062719905280"
+        }
+      ],
+      "gs_app_id": "conv2-app",
+      "object": "whatsapp_business_account"
+    },
+    "createdAt": "2025-08-06 12:17:10",
+    "startedAt": "2025-08-06 12:17:10",
+    "completedAt": "2025-08-06 12:17:11",
+    "executed": true
+  },
+  {
+    "payload_type": "whatsapp_webhook",
+    "_id": "conv2-msg1-status",
+    "metaData": {
+      "entry": [
+        {
+          "changes": [
+            {
+              "field": "messages",
+              "value": {
+                "messaging_product": "whatsapp",
+                "metadata": {
+                  "display_phone_number": "918329446654",
+                  "phone_number_id": "629305560276479"
+                },
+                "statuses": [
+                  {
+                    "conversation": {
+                      "id": "conv2-convo-id",
+                      "origin": {
+                        "type": "user_initiated"
+                      },
+                      "expiration_timestamp": "1754487400"
+                    },
+                    "gs_id": "conv2-status-gs-id",
+                    "id": "wamid.HBgMOTI5OTY3NjczODIwFQIAEhggQ0FBQkNERUYwMDFGRjEyMzQ1NkZGQTk5RTJCM0I2NzY=",
+                    "meta_msg_id": "wamid.HBgMOTI5OTY3NjczODIwFQIAEhggQ0FBQkNERUYwMDFGRjEyMzQ1NkZGQTk5RTJCM0I2NzY=",
+                    "pricing": {
+                      "billable": true,
+                      "category": "utility",
+                      "pricing_model": "PMP",
+                      "type": "regular"
+                    },
+                    "recipient_id": "929967673820",
+                    "status": "sent",
+                    "timestamp": "1754401010"
+                  }
+                ]
+              }
+            }
+          ],
+          "id": "30164062719905279"
+        }
+      ],
+      "gs_app_id": "conv2-app",
+      "object": "whatsapp_business_account",
+      "startedAt": "2025-08-06 12:16:50",
+      "completedAt": "2025-08-06 12:16:50",
+      "executed": true
+    }
+  },
+  {
+    "payload_type": "whatsapp_webhook",
+    "_id": "conv2-msg2-status",
+    "metaData": {
+      "entry": [
+        {
+          "changes": [
+            {
+              "field": "messages",
+              "value": {
+                "messaging_product": "whatsapp",
+                "metadata": {
+                  "display_phone_number": "918329446654",
+                  "phone_number_id": "629305560276479"
+                },
+                "statuses": [
+                  {
+                    "conversation": {
+                      "id": "conv2-convo-id",
+                      "origin": {
+                        "type": "user_initiated"
+                      }
+                    },
+                    "gs_id": "conv2-msg2-gs-id",
+                    "id": "wamid.HBgMOTI5OTY3NjczODIwFQIAEhggM0RFNDkxRjEwNDhDQzgwMzk3NzA1ODc1RkU3QzI0MzU=",
+                    "meta_msg_id": "wamid.HBgMOTI5OTY3NjczODIwFQIAEhggM0RFNDkxRjEwNDhDQzgwMzk3NzA1ODc1RkU3QzI0MzU=",
+                    "pricing": {
+                      "billable": true,
+                      "category": "utility",
+                      "pricing_model": "PMP",
+                      "type": "regular"
+                    },
+                    "recipient_id": "929967673820",
+                    "status": "delivered",
+                    "timestamp": "1754401045"
+                  }
+                ]
+              }
+            }
+          ],
+          "id": "30164062719905280"
+        }
+      ],
+      "gs_app_id": "conv2-app",
+      "object": "whatsapp_business_account",
+      "startedAt": "2025-08-06 12:17:30",
+      "completedAt": "2025-08-06 12:17:30",
+      "executed": true
+    }
+  }
+]
